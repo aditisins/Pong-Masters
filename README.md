@@ -13,7 +13,7 @@ Pong Masters is a simple, yet addictive, implementation of the classic pong game
 
 ## How to Play
 
-1. **Open the game**: Load the `index.html` in any modern web browser.
+1. **Open the game**: Load the `index.html` in any web browser.
 2. **Start the game**: The game starts automatically in your web browser, pause  or restart the game at any time.
 3. **Control the paddles**: Use assigned keys to move the paddles up or down.
 4. **Score points**: Get the ball past your opponent's paddle to score points.
