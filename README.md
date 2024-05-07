@@ -1,4 +1,4 @@
-﻿# pong-masters
+﻿# Pong Masters
 Pong Masters is a simple, yet addictive, implementation of the classic pong game designed for two players. Built with HTML, CSS, and JavaScript, this game brings the nostalgic joy of pong right to your web browser. Players can control their paddles using the keyboard, making it a perfect quick-play game to enjoy with a friend.
 
 ## Features
