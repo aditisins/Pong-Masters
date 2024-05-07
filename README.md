@@ -18,3 +18,8 @@ Pong Masters is a simple, yet addictive, implementation of the classic pong game
 3. **Control the paddles**: Use assigned keys to move the paddles up or down.
 4. **Score points**: Get the ball past your opponent's paddle to score points.
 5. **Win the game**: The first player to reach 5 points wins.
+
+To play Pong Masters locally, 
+**Clone the repository**:
+   ```bash
+   git clone https://github.com/aditisins/Pong-Masters.git
