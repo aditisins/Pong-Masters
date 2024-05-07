@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    color: orange; /* Sets the header color to orange */
+}
+
+h1 {
+    font-family: 'VT323', monospace; /* Pixel art style font */
+    font-size: 48indepx;
+    margin-bottom: 10px; /* Space between h1 and h2 */
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF; /* Standard white for less emphasis */
+    font-family: 'VT323', monospace;
+}
+
+#pongGame {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid white;
+    margin-top: 40px; /* Ensures some space between the header and the game area */
+}
+
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+#paddle1 {
+    left: 10px;
+    top: 165px;
+    background-color: rgb(247, 146, 146);
+}
+
+#paddle2 {
+    right: 10px;
+    top: 165px;
+    background-color: rgb(92, 157, 255);
+}
+
+#ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#playAgain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: none; /* Hide button initially */
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.winner {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    z-index: 100;
+}
+
+.player1 {
+    color: rgb(247, 146, 146);; /* Red color for Player 1 */
+}
+
+.player2 {
+    color: rgb(92, 157, 255); /* Blue color for Player 2 */
+}
