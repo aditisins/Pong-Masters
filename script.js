@@ -65,7 +65,7 @@ function updateScore(winner) {
     score1Display.innerText = score1;
     score2Display.innerText = score2;
 
-    // Randomly choose the ball's direction
+    //random ball direction
     velocityX = Math.random() < 0.5 ? -2 : 2;
     ballX = 300;
     ballY = 200;
@@ -104,15 +104,15 @@ let gamePaused = false;
 
 function togglePlayPause() {
     if (gamePaused) {
-        // Resume the game
+        //resume
         interval = setInterval(gameLoop, 10);
-        document.getElementById('togglePlay').innerHTML = '&#10073;&#10073;'; // Set to Pause symbol
+        document.getElementById('togglePlay').innerHTML = '&#10073;&#10073;'; //set to pause
     } else {
-        // Pause the game
+        //pause game
         clearInterval(interval);
-        document.getElementById('togglePlay').innerHTML = '&#9658;'; // Set to Play symbol
+        document.getElementById('togglePlay').innerHTML = '&#9658;'; //set to play
     }
-    gamePaused = !gamePaused; // Toggle the paused state
+    gamePaused = !gamePaused; //pause toggle
 }
 
 function restartGame() {
@@ -131,5 +131,5 @@ function restartGame() {
     playAgain.style.display = 'none';
     interval = setInterval(gameLoop, 10);
     gamePaused = false;
-    document.getElementById('togglePlay').innerHTML = '&#10073;&#10073;'; // Reset to Pause symbol
+    document.getElementById('togglePlay').innerHTML = '&#10073;&#10073;'; //reset to pause
 }
