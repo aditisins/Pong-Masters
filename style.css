@@ -9,19 +9,19 @@ body, html {
 
 header {
     text-align: center;
-    color: orange; /* Sets the header color to orange */
+    color: orange; 
 }
 
 h1 {
-    font-family: 'VT323', monospace; /* Pixel art style font */
+    font-family: 'VT323', monospace; 
     font-size: 48indepx;
-    margin-bottom: 10px; /* Space between h1 and h2 */
+    margin-bottom: 10px; 
 }
 
 h2 {
     font-size: 20px;
     font-weight: normal;
-    color: #FFFFFF; /* Standard white for less emphasis */
+    color: #FFFFFF;
     font-family: 'VT323', monospace;
 }
 
@@ -30,14 +30,14 @@ h2 {
     width: 600px;
     height: 400px;
     border: 2px solid white;
-    margin-top: 40px; /* Ensures some space between the header and the game area */
+    margin-top: 40px; 
 }
 
 .paddle {
     position: absolute;
     width: 10px;
     height: 70px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
 }
 
 #paddle1 {
@@ -70,7 +70,7 @@ h2 {
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     font-size: 16px;
-    display: none; /* Hide button initially */
+    display: none; 
     color: white;
     border: 1px solid white;
     background-color: transparent;
@@ -99,9 +99,9 @@ h2 {
 }
 
 .player1 {
-    color: rgb(247, 146, 146);; /* Red color for Player 1 */
+    color: rgb(247, 146, 146);; 
 }
 
 .player2 {
-    color: rgb(92, 157, 255); /* Blue color for Player 2 */
+    color: rgb(92, 157, 255); 
 }
